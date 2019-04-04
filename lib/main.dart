@@ -24,8 +24,8 @@ class Home extends StatelessWidget {
         ),
         body: Container(
           decoration: BoxDecoration(
-              gradient: LinearGradient(colors: [Colors.red, Colors.yellow], begin: Alignment(-1, -1))),
-          padding: EdgeInsets.only(top: 51.0),
+              gradient: LinearGradient(colors: [Colors.green, Colors.lime], begin: Alignment(-1, -1))),
+          padding: EdgeInsets.only(top: 50.0),
           alignment: Alignment.topCenter,
           child: showLogo,
         ),
